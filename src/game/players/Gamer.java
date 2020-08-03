@@ -24,7 +24,7 @@ public class Gamer extends Player {
 		int input;
 		
 		while(true) {
-			System.out.print("Ante베팅 금액을 입력해주세요 (00은 종료) >> ");
+			System.out.print("Ante베팅 금액을 입력해주세요 (0은 종료) >> ");
 			input = scan.nextInt();
 			
 			if(input > money) {
